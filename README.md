@@ -354,8 +354,8 @@ The AI demonstrated the Socratic method for test planning, asking probing questi
 
 This project includes a complete Python vs Rust comparison:
 
-- **Python Implementation**: [`python_calculator.py`](../python_calculator.py) - Same functionality in Python
-- **Performance Benchmark**: [`benchmark_comparison.py`](../benchmark_comparison.py) - Compare both implementations
+- **Python Implementation**: [`python_calculator.py`](python_calculator.py) - Same functionality in Python
+- **Performance Benchmark**: [`benchmark_comparison.py`](benchmark_comparison.py) - Compare both implementations
 - **Detailed Analysis**: **[Language Comparison Guide](LANGUAGE_COMPARISON.md)** - Complete technical comparison
 
 ### Quick Comparison
@@ -376,6 +376,7 @@ This project includes a complete Python vs Rust comparison:
 - **[RUST_CONCEPTS.md](RUST_CONCEPTS.md)** - Essential Rust concepts guide
 - **[EXAMPLES_GUIDE.md](EXAMPLES_GUIDE.md)** - Detailed examples walkthrough
 - **[examples/](examples/)** - Additional Rust code examples
+- **[rust_gitignore_template.txt](rust_gitignore_template.txt)** - Ready-to-use .gitignore template for Rust projects
 
 ### 🌐 External Resources
 
