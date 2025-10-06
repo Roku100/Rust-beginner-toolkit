@@ -423,33 +423,6 @@ After completing this guide:
 
 ---
 
-## 📚 References & Citations
-
-### Primary Sources
-
-1. **Rust Team**. (2024). _The Rust Programming Language_. Retrieved from [🔗 https://doc.rust-lang.org/book/](https://doc.rust-lang.org/book/)
-2. **Rust Team**. (2024). _Rust by Example_. Retrieved from [🔗 https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
-3. **Rust Foundation**. (2024). _Rust Language Reference_. Retrieved from [🔗 https://doc.rust-lang.org/reference/](https://doc.rust-lang.org/reference/)
-
-### Educational Resources
-
-4. **Klabnik, S., & Nichols, C.** (2023). _The Rust Programming Language_ (2nd ed.). No Starch Press.
-5. **Blandy, J., Orendorff, J., & Tindall, L.** (2021). _Programming Rust_ (2nd ed.). O'Reilly Media.
-6. **McNamara, T.** (2021). _Rust in Action_. Manning Publications.
-
-### Community Resources
-
-7. **Rust Users Forum**. (2024). Retrieved from [🔗 https://users.rust-lang.org/](https://users.rust-lang.org/)
-8. **This Week in Rust**. (2024). Retrieved from [🔗 https://this-week-in-rust.org/](https://this-week-in-rust.org/)
-9. **Rust Discord Community**. (2024). Retrieved from [🔗 https://discord.gg/rust-lang](https://discord.gg/rust-lang)
-
-### Comparison Studies
-
-10. **Stack Overflow**. (2024). _Developer Survey 2024: Most Loved Languages_. Retrieved from [🔗 https://survey.stackoverflow.co/](https://survey.stackoverflow.co/)
-11. **GitHub**. (2024). _The State of the Octoverse: Programming Languages_. Retrieved from [🔗 https://octoverse.github.com/](https://octoverse.github.com/)
-
----
-
 _This guide was created as part of the Moringa AI Capstone Project, demonstrating how AI can accelerate learning new technologies like Rust._
 
 ## 🏷️ Tags
