@@ -1,0 +1,9 @@
+# Mark Python files as documentation/examples, not primary language
+*.py linguist-documentation=true
+
+# Ensure Rust is detected as the primary language
+*.rs linguist-language=Rust
+
+# Mark other files appropriately
+*.md linguist-documentation=true
+*.txt linguist-documentation=true
