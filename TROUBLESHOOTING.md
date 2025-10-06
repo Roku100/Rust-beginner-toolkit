@@ -24,7 +24,8 @@ This happens when Rust is installed but not added to your system PATH. Here are 
 1. **Windows GUI Method:**
 
    - Press `Win + R`, type `sysdm.cpl`, press Enter
-   - Click "Environment Variables" button
+   - Navigate to the "Advanced" tab 
+   - Click "Environment Variables" button at the bottom
    - Under "User variables", find and select "Path", click "Edit"
    - Click "New" and add: `C:\Users\[YourUsername]\.cargo\bin`
    - Click "OK" on all dialogs
@@ -258,3 +259,135 @@ If you encounter an issue not covered here, please:
 2. Search the Rust Users Forum
 3. Ask on Stack Overflow with the `rust` tag
 4. Create an issue in this repository with details about your problem
+
+---
+
+## Finding Cargo and Rust Files on Your Computer
+
+### Where is Cargo installed?
+
+**For beginners:** After installing Rust, here's where to find Cargo on your computer:
+
+#### Windows
+
+```
+Default location: C:\Users\[YourUsername]\.cargo\bin\
+```
+
+**Step-by-step to find it:**
+
+1. Open File Explorer
+2. Go to `C:\Users\`
+3. Open your username folder (like `C:\Users\John\`)
+4. Look for a folder called `.cargo` (it might be hidden)
+5. Inside `.cargo`, you'll find a `bin` folder
+6. Inside `bin`, you'll see `cargo.exe` and `rustc.exe`
+
+**If you can't see the `.cargo` folder:**
+
+1. In File Explorer, click "View" tab
+2. Check the box "Hidden items"
+3. Now you should see the `.cargo` folder
+
+#### macOS/Linux
+
+```
+Default location: ~/.cargo/bin/
+```
+
+**Step-by-step to find it:**
+
+1. Open Terminal
+2. Type: `ls -la ~/.cargo/bin/`
+3. You should see `cargo` and `rustc` files
+
+### How to check if Cargo is working
+
+**Open your terminal/command prompt and try:**
+
+```bash
+# Check if Cargo is found
+cargo --version
+
+# Check if Rust compiler is found
+rustc --version
+
+# See where Cargo is located
+where cargo     # Windows
+which cargo     # macOS/Linux
+```
+
+**Expected output:**
+
+```
+cargo 1.XX.X (hash 2024-XX-XX)
+rustc 1.XX.X (hash 2024-XX-XX)
+```
+
+### What if Cargo is not found?
+
+**Error you might see:**
+
+```
+'cargo' is not recognized as an internal or external command
+```
+
+**Quick fixes:**
+
+1. **Restart your terminal** - This fixes it 90% of the time
+2. **Check if Rust is actually installed:**
+   - Windows: Look for `C:\Users\[YourUsername]\.cargo\bin\cargo.exe`
+   - If it's not there, reinstall Rust
+3. **Add to PATH manually** (see PATH section above)
+
+### Understanding Rust file locations
+
+**For beginners, here's what goes where:**
+
+| What                | Where it lives       | What it does          |
+| ------------------- | -------------------- | --------------------- |
+| `cargo.exe`         | `~/.cargo/bin/`      | The Cargo tool itself |
+| `rustc.exe`         | `~/.cargo/bin/`      | The Rust compiler     |
+| Your projects       | Anywhere you want    | Your Rust code        |
+| Downloaded packages | `~/.cargo/registry/` | Libraries you use     |
+
+**Example project structure:**
+
+```
+Your Documents/
+├── my_rust_projects/
+│   ├── calculator/
+│   │   ├── Cargo.toml
+│   │   └── src/
+│   │       └── main.rs
+│   └── todo_app/
+│       ├── Cargo.toml
+│       └── src/
+│           └── main.rs
+```
+
+### Beginner tip: Create a Rust projects folder
+
+**Recommended setup:**
+
+1. Create a folder like `Documents/RustProjects/`
+2. Put all your Rust learning projects there
+3. Each project gets its own subfolder
+
+**Example:**
+
+```bash
+# Navigate to your projects folder
+cd Documents/RustProjects
+
+# Create a new project
+cargo new my_first_project
+
+# Go into the project
+cd my_first_project
+
+# Run it
+cargo run
+```
+
+This keeps everything organized and easy to find!
