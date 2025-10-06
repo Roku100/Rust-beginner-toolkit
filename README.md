@@ -373,7 +373,7 @@ This project includes a complete Python vs Rust comparison:
 
 - **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common issues and solutions
 - **[LANGUAGE_COMPARISON.md](LANGUAGE_COMPARISON.md)** - Complete Rust vs Python analysis
-- **[RUST_CONCEPTS.md](RUST_CONCEPTS.md)** - Essential Rust concepts guide
+- **[RUST_CONCEPTS.md](RUST_CONCEPTS.md)** - Complete Rust concepts guide from beginner to advanced
 - **[EXAMPLES_GUIDE.md](EXAMPLES_GUIDE.md)** - Detailed examples walkthrough
 - **[examples/](examples/)** - Additional Rust code examples
 - **[rust_gitignore_template.txt](rust_gitignore_template.txt)** - Ready-to-use .gitignore template for Rust projects
