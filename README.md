@@ -2,6 +2,8 @@
 
 > A comprehensive beginner's guide to Rust programming, created as part of the Moringa AI Capstone Project.
 
+> 💡 **Tip:** External links (marked with 🔗) are best opened in new tabs using Ctrl+Click (Windows/Linux) or Cmd+Click (Mac)
+
 ## 🎯 Capstone Project Overview
 
 This project demonstrates how AI can accelerate learning new programming languages. Using strategic AI prompts, I created a complete Rust learning guide for Python developers, showcasing effective AI-assisted education methodology.
@@ -316,11 +318,11 @@ The AI provided a comprehensive comparison highlighting that Rust's ownership sy
 
 **What I learned:** Rust's ownership system replaces Python's garbage collector with compile-time memory management, and the borrow checker enforces memory safety rules that Python handles at runtime.
 
-**AI Platform:** [ai.moringaschool.com](https://ai.moringaschool.com)
+**AI Platform:** [🔗 ai.moringaschool.com](https://ai.moringaschool.com)
 
 ### Prompt 2: Documentation Strategy
 
-**AI Platform:** [ai.moringaschool.com - Project README Generation](https://ai.moringaschool.com/ai-software/ai-use-cases/usecases-documentation/)
+**AI Platform:** [🔗 ai.moringaschool.com - Project README Generation](https://ai.moringaschool.com/ai-software/ai-use-cases/usecases-documentation/)
 
 **AI Response Summary:**
 The AI emphasized the importance of documentation hierarchy and user journey mapping. It recommended starting with a compelling "Why" section, followed by quick-start instructions for immediate gratification, then progressive complexity layers. The AI suggested using visual elements (emojis, code blocks, tables) to break up text density and provided specific strategies for cross-referencing between sections. It also highlighted the need for multiple learning paths - visual learners need examples, kinesthetic learners need hands-on exercises, and analytical learners need comprehensive references.
@@ -329,7 +331,7 @@ The AI emphasized the importance of documentation hierarchy and user journey map
 
 ### Prompt 3: Testing and Iteration
 
-**AI Platform:** [ai.moringaschool.com - Test Planning Guidance](https://ai.moringaschool.com/ai-software/ai-use-cases/usecases-testing-simpler/)
+**AI Platform:** [🔗 ai.moringaschool.com - Test Planning Guidance](https://ai.moringaschool.com/ai-software/ai-use-cases/usecases-testing-simpler/)
 
 **AI Response Summary:**
 The AI demonstrated the Socratic method for test planning, asking probing questions like "What are the different ways this function can succeed or fail?" and "How would you verify that behavior?" Instead of providing ready-made test cases, it guided me to identify edge cases systematically - invalid inputs, boundary conditions, error states, and Rust-specific concerns like ownership and borrowing. The AI emphasized test prioritization: core functionality first, then error handling, then edge cases. It also highlighted Rust-specific testing patterns like using `Result<T, E>` assertions and testing panic conditions.
@@ -379,36 +381,36 @@ This project includes a complete Python vs Rust comparison:
 
 **📚 Official Documentation:**
 
-- [The Rust Book](https://doc.rust-lang.org/book/) - Complete beginner's guide
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) - Learn by examples
-- [Rust Reference](https://doc.rust-lang.org/reference/) - Language reference
-- [Standard Library Docs](https://doc.rust-lang.org/std/) - API documentation
+- [🔗 The Rust Book](https://doc.rust-lang.org/book/) - Complete beginner's guide
+- [🔗 Rust by Example](https://doc.rust-lang.org/rust-by-example/) - Learn by examples
+- [🔗 Rust Reference](https://doc.rust-lang.org/reference/) - Language reference
+- [🔗 Standard Library Docs](https://doc.rust-lang.org/std/) - API documentation
 
 **🎮 Interactive Learning:**
 
-- [Rust Playground](https://play.rust-lang.org/) - Try Rust in your browser
-- [Rustlings](https://github.com/rust-lang/rustlings) - Small exercises to get started
-- [Exercism Rust Track](https://exercism.org/tracks/rust) - Coding practice with mentorship
+- [🔗 Rust Playground](https://play.rust-lang.org/) - Try Rust in your browser
+- [🔗 Rustlings](https://github.com/rust-lang/rustlings) - Small exercises to get started
+- [🔗 Exercism Rust Track](https://exercism.org/tracks/rust) - Coding practice with mentorship
 
 **🛠️ Tools & Setup:**
 
-- [Rustup](https://rustup.rs/) - Rust installer and version manager
-- [Cargo Book](https://doc.rust-lang.org/cargo/) - Package manager guide
-- [VS Code Rust Extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) - IDE support
+- [🔗 Rustup](https://rustup.rs/) - Rust installer and version manager
+- [🔗 Cargo Book](https://doc.rust-lang.org/cargo/) - Package manager guide
+- [🔗 VS Code Rust Extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer) - IDE support
 
 **📺 Video Resources:**
 
-- [Rust Programming Course - freeCodeCamp](https://www.youtube.com/watch?v=zF34dRivLOw) - Comprehensive video tutorial
-- [Jon Gjengset's Rust Streams](https://www.youtube.com/c/JonGjengset) - Advanced Rust concepts
-- [Rust Foundation YouTube](https://www.youtube.com/c/RustVideos) - Official videos
+- [🔗 Rust Programming Course - freeCodeCamp](https://www.youtube.com/watch?v=zF34dRivLOw) - Comprehensive video tutorial
+- [🔗 Jon Gjengset's Rust Streams](https://www.youtube.com/c/JonGjengset) - Advanced Rust concepts
+- [🔗 Rust Foundation YouTube](https://www.youtube.com/c/RustVideos) - Official videos
 
 ### 💬 Community
 
-- [Rust Users Forum](https://users.rust-lang.org/) - Ask questions and get help
-- [r/rust](https://www.reddit.com/r/rust/) - Reddit community (130k+ members)
-- [Rust Discord](https://discord.gg/rust-lang) - Real-time chat support
-- [This Week in Rust](https://this-week-in-rust.org/) - Weekly newsletter
-- [Rust Blog](https://blog.rust-lang.org/) - Official announcements and updates
+- [🔗 Rust Users Forum](https://users.rust-lang.org/) - Ask questions and get help
+- [🔗 r/rust](https://www.reddit.com/r/rust/) - Reddit community (130k+ members)
+- [🔗 Rust Discord](https://discord.gg/rust-lang) - Real-time chat support
+- [🔗 This Week in Rust](https://this-week-in-rust.org/) - Weekly newsletter
+- [🔗 Rust Blog](https://blog.rust-lang.org/) - Official announcements and updates
 
 ## 🎯 Next Steps
 
@@ -425,9 +427,9 @@ After completing this guide:
 
 ### Primary Sources
 
-1. **Rust Team**. (2024). _The Rust Programming Language_. Retrieved from https://doc.rust-lang.org/book/
-2. **Rust Team**. (2024). _Rust by Example_. Retrieved from https://doc.rust-lang.org/rust-by-example/
-3. **Rust Foundation**. (2024). _Rust Language Reference_. Retrieved from https://doc.rust-lang.org/reference/
+1. **Rust Team**. (2024). _The Rust Programming Language_. Retrieved from [🔗 https://doc.rust-lang.org/book/](https://doc.rust-lang.org/book/)
+2. **Rust Team**. (2024). _Rust by Example_. Retrieved from [🔗 https://doc.rust-lang.org/rust-by-example/](https://doc.rust-lang.org/rust-by-example/)
+3. **Rust Foundation**. (2024). _Rust Language Reference_. Retrieved from [🔗 https://doc.rust-lang.org/reference/](https://doc.rust-lang.org/reference/)
 
 ### Educational Resources
 
@@ -437,14 +439,14 @@ After completing this guide:
 
 ### Community Resources
 
-7. **Rust Users Forum**. (2024). Retrieved from https://users.rust-lang.org/
-8. **This Week in Rust**. (2024). Retrieved from https://this-week-in-rust.org/
-9. **Rust Discord Community**. (2024). Retrieved from https://discord.gg/rust-lang
+7. **Rust Users Forum**. (2024). Retrieved from [🔗 https://users.rust-lang.org/](https://users.rust-lang.org/)
+8. **This Week in Rust**. (2024). Retrieved from [🔗 https://this-week-in-rust.org/](https://this-week-in-rust.org/)
+9. **Rust Discord Community**. (2024). Retrieved from [🔗 https://discord.gg/rust-lang](https://discord.gg/rust-lang)
 
 ### Comparison Studies
 
-10. **Stack Overflow**. (2024). _Developer Survey 2024: Most Loved Languages_. Retrieved from https://survey.stackoverflow.co/
-11. **GitHub**. (2024). _The State of the Octoverse: Programming Languages_. Retrieved from https://octoverse.github.com/
+10. **Stack Overflow**. (2024). _Developer Survey 2024: Most Loved Languages_. Retrieved from [🔗 https://survey.stackoverflow.co/](https://survey.stackoverflow.co/)
+11. **GitHub**. (2024). _The State of the Octoverse: Programming Languages_. Retrieved from [🔗 https://octoverse.github.com/](https://octoverse.github.com/)
 
 ---
 
