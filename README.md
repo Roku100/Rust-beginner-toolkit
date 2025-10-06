@@ -14,7 +14,7 @@ This project demonstrates how AI can accelerate learning new programming languag
 
 Get up and running with Rust in under 5 minutes:
 
-**Windows:** Download [rustup-init.exe](https://rustup.rs/) and run it  
+**Windows:** Run `Invoke-RestMethod -Uri https://win.rustup.rs/ | Invoke-Expression` in PowerShell  
 **Mac/Linux:** Run `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
 Then create your first project:
@@ -51,9 +51,11 @@ Discord uses Rust for their backend services to handle millions of concurrent us
 
 **🪟 Windows:**
 
-1. Download and run [rustup-init.exe](https://rustup.rs/)
-2. Follow the installer prompts (default options work fine)
-3. Restart your terminal/command prompt
+```powershell
+Invoke-RestMethod -Uri https://win.rustup.rs/ | Invoke-Expression
+```
+
+_Alternative: Download and run [rustup-init.exe](https://rustup.rs/) if you prefer GUI installation_
 
 **🍎 macOS:**
 
